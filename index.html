@@ -1,7 +1,65 @@
 ﻿<!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="index.css"/>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <nav>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li><a href="#welcome-section">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="welcome-section" class="intro">
+    <img src="Work_2013.jpg" class="img-portfolio" alt="Tim Nguyen"/>
+    <h1>TIEN VINH NGUYEN</h1>
+    <p>_____________</p>
+    <p>Software Engineer, Vocational Student in Los Angeles city</p>
+  </div>
+
+  <div id="projects" class="projects">
+    <h2 class="projects-header">PORTFOLIO</h2>
+    <a href="https://codepen.io/tienvnguyen/pen/RJyoYo" target="_blank" class="project project-tile">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg/800px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg" alt="Tribute Page Project" class="project-pic"/>
+      <div class="project-title">Tribute Page</div>
+    </a>
+    <a href="https://codepen.io/tienvnguyen/pen/VdxPVQ" target="_blank" class="project project-tile">
+      <img src="https://preview.ibb.co/j3sLn8/Screenshot_2018_06_26_19_40_59.png" alt="Tribute Page Project" class="project-pic"/>
+      <div class="project-title">Survey Form Page</div>
+    </a>
+    <a href="https://codepen.io/tienvnguyen/pen/aKGwew" target="_blank" class="project project-tile">
+      <img src="https://preview.ibb.co/ijH9fT/Screenshot_2018_06_26_20_37_12.png" alt="Product Landing Project" class="project-pic"/>
+      <div class="project-title">Product Landing</div>
+    </a>
+    <a href="https://codepen.io/tienvnguyen/pen/RJYNPZ" target="_blank" class="project project-tile">
+      <img src="https://preview.ibb.co/fhepfT/Screenshot_2018_06_26_20_35_58.png" alt="Kotlin Technology Project" class="project-pic"/>
+      <div class="project-title">Kotlin Technology</div>
+    </a>
+  </div>
+
+  <div id="contact" class="contact">
+    <div class="header">
+      <h1>I'D LOVE TO HEAR FROM YOU</h1>
+    </div>
+    <a href="https://www.facebook.com/tien.workinfo" target="_blank" class="contact-details">Facebook</a>
+    <a id='profile-link' href="https://github.com/TienVNguyen" target="_blank" class="contact-details">GitHub</a>
+    <a href="https://twitter.com/TienWorkinfo" target="_blank" class="contact-details">Twitter</a>
+    <a href="mailto:tien.workinfo@gmail.com" class="contact-details">Email</a>
+    <a href="tel:626-988-3765" class="contact-details">Call</a>
+    <div class="form">
+      <form action="mailto:tien.workinfo@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" class="form-control" placeholder="Name" required/><br>
+        <input type="text" name="mail" class="form-control" placeholder="Email Address" required/><br>
+        <textarea rows="5" name="message" class="form-control" placeholder="Your Comment" required></textarea><br><br>
+        <input type="submit" value="Send" class="btn-send">
+      </form>
+    </div>
+  </div>
+
+  <footer>Copyright &copy; <a href="https://www.linkedin.com/in/tien-nguyen-88851710b/" target="_blank">Tien Nguyen</a> - 2018</footer>
 </body>
 </html>
