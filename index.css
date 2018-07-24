@@ -72,16 +72,17 @@ html, body{
 .img-portfolio {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
-  list-style-type: none;
-  border: 2px solid #90C695;
-  border-radius: 100%;
-  width: 80px;
-  height: 80px;
+  margin: 0 20px 30px 20px;
+  width: 200px;
+  height: 200px;
   line-height: 80px;
   background: #e0ebe8;
   color: #008080;
   text-decoration: none;
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
 }
 
 .project {
