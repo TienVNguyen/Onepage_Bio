@@ -54,19 +54,17 @@ html, body{
 
 .intro {
   top: 0;
-  background: grey;
+  background: silver;
   min-height: 30vh;
   padding-top: 30vh;
 }
 
 .intro h1 {
   padding-bottom: 20px;
-  color: white;
 }
 
 .intro p {
   padding-bottom: 15px;
-  color: white;
 }
 
 .img-portfolio {
@@ -156,6 +154,7 @@ html, body{
   padding: 10px;
   margin: 10px;
   line-height: 1.5;
+  display: inline-block;
 }
 
 .btn-send {
